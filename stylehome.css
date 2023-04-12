@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+	background-image: url(https://github.com/ErickOrrante/SoslayadosEludiudos/blob/main/fondo%20negro.jpg?raw=true);
+	background-size: cover;
+}
+
+.fathergrid {
+	display: grid;
+	height: 850px;
+	width: cover;
+	grid-template-columns: repeat(19, 1fr);
+	grid-template-rows: repeat(13, 1fr);
+}
+
+img {
+	width: 610px;
+}
+
+.aquelarre {
+	grid-column-start: 14;
+	grid-column-end: 18;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	align-self: center;
+	justify-self: center;
+}
+
+.menu {
+	grid-column-start: 12;
+	grid-column-end: 19;
+	grid-row-start: 5;
+	grid-row-end: 12;
+	align-self: center;
+	justify-self: center;
+	color: rgb(193, 27, 205);
+	font-family: Quintessential;
+	font-size: 35px;
+}
+
+.Contacto {
+	grid-column-start: 6;
+	grid-column-end: 15;
+	grid-row-start: 13;
+	grid-row-end: 14;
+	color: rgb(180, 255, 255);
+	align-self: center;
+	justify-self: center;
+	font-family: Kaushan Script;
+	font-size: 25px;
+}
